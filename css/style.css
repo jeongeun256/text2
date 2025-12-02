@@ -39,7 +39,7 @@ body {
     /* background-color: #222; */
 }
 #wrap {
-    min-width: 1560px;
+    min-width: 1600px;
 }
 #header {
     position: fixed;
@@ -832,14 +832,19 @@ body {
 
 /* find your zest */
 #banner_01 {
+    width: 100%;
+    height: 180px;
     background-image: url(../img/zest_banner_01.jpg);
 }
 
 .banner_01_img {
-    width: 1920px;
-    height: 180px;
+    width: 100%;
+    height: 100%;
     margin: 0 auto;
     overflow: hidden;
+}
+.banner_01_img a {
+    display: block;
 }
 
 .banner_01_img img {
@@ -862,15 +867,14 @@ body {
 }
 
 .sec3_wrap {
-    width: 1920px;
+    width: 1320px;
     height: 685px;
     margin: 0 auto;
-
     display: flex;
 }
 
 .test_page {
-    width: 1320px;
+    width: 100%;
     height: 681px;
     background-color: #111;
     padding-left: 150px;
@@ -1497,11 +1501,12 @@ body {
 /* section5 */
 
 #section5 {
+    width: 100%;
     background-color: #ffff00;
 }
 
 .sec5_wrap {
-    width: 1920px;
+    width: 1320px;
     margin: 0 auto;
 }
 
